@@ -1,7 +1,6 @@
 /* Reset básico e Fontes */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Merriweather:ital,wght@0,700;1,400&display=swap');
 
-/* --- CORES E TEMAS --- */
 .light {
   --bg-body: #f8f9fa;
   --bg-card: #ffffff;
@@ -26,7 +25,6 @@
   line-height: 1.6;
 }
 
-/* --- NAVBAR --- */
 .topbar {
   position: sticky;
   top: 0;
@@ -76,7 +74,6 @@
   gap: 0.5rem;
 }
 
-/* Botões (Tema e Pesquisa) */
 .iconBtn {
   background: transparent;
   border: 1px solid transparent;
@@ -96,7 +93,6 @@
   color: var(--accent);
 }
 
-/* --- HERO HEADER --- */
 .hero {
   background: linear-gradient(135deg, var(--accent), #1e1b4b);
   color: white;
@@ -142,7 +138,6 @@
   box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 
-/* --- LAYOUT --- */
 .container {
   max-width: 900px;
   margin: 0 auto;
@@ -154,7 +149,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1.5rem;
-  margin-top: 3rem; /* Efeito visual overlap */
+  margin-top: 3rem;
   margin-bottom: 4rem;
 }
 
@@ -196,7 +191,6 @@
   line-height: 1.4;
 }
 
-/* --- SEÇÕES --- */
 .contentSections {
   display: flex;
   flex-direction: column;
@@ -230,7 +224,6 @@
   font-family: 'Merriweather', serif;
 }
 
-/* Gerações */
 .generationsGrid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -261,7 +254,6 @@
   margin-top: 0.5rem;
 }
 
-/* Features e Contato */
 .featureList {
   list-style: none;
   padding: 0;
@@ -296,7 +288,6 @@
   text-decoration: underline;
 }
 
-/* Footer */
 .footer {
   margin-top: 4rem;
   padding: 2rem 0;
@@ -310,7 +301,6 @@
   opacity: 0.7;
 }
 
-/* Mobile */
 @media (max-width: 768px) {
   .heroContent h1 { font-size: 2.5rem; }
   .navLinks { display: none; }
