@@ -88,22 +88,9 @@ export default function App() {
               <h2>O que são Direitos Humanos?</h2>
               <div className={styles}></div>
             </div>
-            <p>Os direitos humanos são um conjunto de direitos e liberdades fundamentais que pertencem a todos os indivíduos, sem distinção. Eles incluem direitos civis e políticos, como o direito à vida, à liberdade de expressão e à igualdade perante a lei, bem como direitos econômicos, sociais e culturais, como o direito à educação, à saúde e ao trabalho. 
-Wikipedia
-+1
-Declaração Universal dos Direitos Humanos
-A Declaração Universal dos Direitos Humanos foi adotada pela Assembleia Geral das Nações Unidas em 10 de dezembro de 1948. Este documento histórico estabelece os direitos e liberdades que devem ser garantidos a todos os seres humanos. A declaração afirma que "todos os seres humanos nascem livres e iguais em dignidade e direitos" e é um marco fundamental na luta pela justiça e igualdade em todo o mundo. 
-UNICEF
-+1
-Importância dos Direitos Humanos
-Os direitos humanos são essenciais para a construção de sociedades justas e pacíficas. Eles promovem a dignidade humana e garantem que todos tenham acesso a oportunidades iguais. A proteção dos direitos humanos é fundamental para prevenir abusos e garantir que todos possam viver livres de opressão e discriminação. 
-Naciones Unidas
-Desafios e Violação dos Direitos Humanos
-Apesar dos avanços, os direitos humanos ainda são frequentemente violados em várias partes do mundo. Questões como discriminação, violência, pobreza e repressão política continuam a desafiar a implementação plena dos direitos humanos. A luta pela promoção e proteção desses direitos é um compromisso contínuo que envolve governos, organizações e indivíduos. 
-Wikipedia
-+1
+            <p>Os Direitos Humanos são normas universais que reconhecem e protegem a dignidade de todos os seres humanos, independentemente de raça, sexo, nacionalidade, etnia, religião, ou qualquer outra condição.
 
-Os direitos humanos são, portanto, um pilar fundamental da convivência humana e da justiça social, e sua defesa é uma responsabilidade coletiva de todos.
+Eles regem como as pessoas vivem em sociedade e definem as obrigações do Estado em relação a elas.
             </p>
             <section className={styles}>
               "Todos os seres humanos nascem livres e iguais em dignidade e em direitos."
