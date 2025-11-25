@@ -33,7 +33,7 @@ export default function App() {
             <a href="#definicao">Definição</a>
             <a href="#principios">Princípios</a>
             <a href="#declaracao">Declaração</a>
-            <a href="#curiosidades">Contato</a>
+            <a href="#qrcode">Qrcode</a>
           </div>
 
           <div className={styles.actions}>
@@ -73,10 +73,10 @@ export default function App() {
             <p>A história da DUDH de 1948 e seus artigos.</p>
           </a>
 
-          <a href="#curiosidades" className={styles.menuCard}>
+          <a href="#qrcode" className={styles.menuCard}>
              <div className={styles}></div>
-            <h2>Curiosidades</h2>
-            <p>Fatos marcantes e canais de contato.</p>
+            <h2>Qrcode</h2>
+            <p>Se esta no pc veja pelo celular aqui.</p>
           </a>
         </main>
 
@@ -144,10 +144,16 @@ Eles regem como as pessoas vivem em sociedade e definem as obrigações do Estad
         <footer className={styles.footer}>
           <p>© 2025 Direitos Humanos Instituto FORJA .</p>
         </footer>
-
-        <footer className={styles.footer}>
-          <img src="image/qrcode.svg" alt="" />
+      <section>
+        <footer className={styles.footer} id="qrcode">
+            <div className={styles.sectionHeader}>
+              <h2> Escaneie o QR</h2>
+              <div className={styles}></div>
+              <img src="image/qrcode.svg" alt="" />
+           <a href="#qrcode" className={styles}></a>
+            </div>
         </footer>
+      </section>
       </div>
     </div>
   );
