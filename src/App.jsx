@@ -37,17 +37,7 @@ export default function App() {
           </div>
 
           <div className={styles.actions}>
-            <button className={styles.iconBtn} aria-label="Pesquisar">
-              <IconSearch />
-            </button>
-
-            <button 
-              className={styles.iconBtn} 
-              onClick={toggleTheme} 
-              aria-label="Alternar Tema"
-            >
-              {theme === "light" ? <IconMoon /> : <IconSun />}
-            </button>
+           
           </div>
         </div>
       </nav>
@@ -57,7 +47,6 @@ export default function App() {
         <div className={styles.heroContent}>
           <h1>Direitos Humanos</h1>
           <p>Dignidade. Liberdade. Igualdade.</p>
-          <span className={styles.subtitle}>Um guia essencial para entender seus direitos fundamentais.</span>
           <a href="#definicao" className={styles.ctaButton}>Começar Leitura</a>
         </div>
       </header>
@@ -67,25 +56,25 @@ export default function App() {
         {/* --- GRID DE MENU --- */}
         <main className={styles.interactiveGrid}>
           <a href="#definicao" className={styles.menuCard}>
-            <div className={styles.iconBox}><IconBook /></div>
+            <div className={styles}></div>
             <h2>Definição</h2>
             <p>O conceito fundamental e sua universalidade.</p>
           </a>
 
           <a href="#principios" className={styles.menuCard}>
-            <div className={styles.iconBox}><IconScale /></div>
+            <div className={styles}></div>
             <h2>Princípios</h2>
             <p>As gerações de direitos e pilares essenciais.</p>
           </a>
 
           <a href="#declaracao" className={styles.menuCard}>
-             <div className={styles.iconBox}><IconGlobe /></div>
+             <div className={styles}></div>
             <h2>A Declaração</h2>
             <p>A história da DUDH de 1948 e seus artigos.</p>
           </a>
 
           <a href="#curiosidades" className={styles.menuCard}>
-             <div className={styles.iconBox}><IconInfo /></div>
+             <div className={styles}></div>
             <h2>Curiosidades</h2>
             <p>Fatos marcantes e canais de contato.</p>
           </a>
@@ -97,7 +86,7 @@ export default function App() {
           <section className={styles.contentSection} id="definicao">
             <div className={styles.sectionHeader}>
               <h2>O que são Direitos Humanos?</h2>
-              <div className={styles.divider}></div>
+              <div className={styles}></div>
             </div>
             <p>Os direitos humanos são um conjunto de direitos e liberdades fundamentais que pertencem a todos os indivíduos, sem distinção. Eles incluem direitos civis e políticos, como o direito à vida, à liberdade de expressão e à igualdade perante a lei, bem como direitos econômicos, sociais e culturais, como o direito à educação, à saúde e ao trabalho. 
 Wikipedia
@@ -116,15 +105,15 @@ Wikipedia
 
 Os direitos humanos são, portanto, um pilar fundamental da convivência humana e da justiça social, e sua defesa é uma responsabilidade coletiva de todos.
             </p>
-            <blockquote className={styles.quote}>
+            <section className={styles}>
               "Todos os seres humanos nascem livres e iguais em dignidade e em direitos."
-            </blockquote>
+            </section>
           </section>
 
           <section className={styles.contentSection} id="principios">
             <div className={styles.sectionHeader}>
               <h2>Princípios e Gerações</h2>
-              <div className={styles.divider}></div>
+              <div className={styles}></div>
             </div>
             <div className={styles.generationsGrid}>
               <div className={styles.generationCard}>
@@ -148,7 +137,7 @@ Os direitos humanos são, portanto, um pilar fundamental da convivência humana 
           <section className={styles.contentSection} id="declaracao">
             <div className={styles.sectionHeader}>
               <h2>Declaração Universal (DUDH)</h2>
-              <div className={styles.divider}></div>
+              <div className={styles}></div>
             </div>
             <p>
               Adotada pela ONU em 10 de dezembro de 1948, em resposta à barbárie da Segunda Guerra Mundial, 
@@ -161,24 +150,13 @@ Os direitos humanos são, portanto, um pilar fundamental da convivência humana 
             </ul>
           </section>
 
-          <section className={styles.contentSection} id="curiosidades">
-            <div className={styles.sectionHeader}>
-              <h2>Contato & Info</h2>
-              <div className={styles.divider}></div>
-            </div>
-            <div className={styles.contactBox}>
-              <p>Tem dúvidas ou quer saber mais sobre como defender esses direitos?</p>
-              <a href="mailto:contato@direitoshumanos.org" className={styles.emailLink}>
-                contato@direitoshumanos.org
-              </a>
-            </div>
-          </section>
+        
 
         </div>
 
         <footer className={styles.footer}>
-          <p>© 2024 Direitos Humanos. Atividade de Curso.</p>
-          <p className={styles.subFooter}>Desenvolvido com React + Vite</p>
+          <p>© 2025 Direitos Humanos Instituto FORJA .</p>
+          
         </footer>
 
       </div>
